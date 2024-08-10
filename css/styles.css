@@ -356,15 +356,16 @@ span {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.tomb {position: relative;
+.tomb {
+  position: relative;
   overflow: hidden;
 }
-  .portfolio-item:hover .par-port {
-    transform: translate(0);
-  }
-  
-  .par-port {
-    top: 0;
+.portfolio-item:hover .par-port {
+  transform: translate(0);
+}
+
+.par-port {
+  top: 0;
   width: 360px;
   height: 300px;
   font-weight: 400;

@@ -179,6 +179,21 @@ span {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.icon {
+  display: flex;
+  gap: 24px;
+}
+.icon-item {
+  display: block;
+  width: calc((100% - 72px) / 4);
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
 .section-two-list {
   display: flex;
   gap: 24px;
